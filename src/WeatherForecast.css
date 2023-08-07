@@ -1,0 +1,23 @@
+.WeatherForecast-temperature-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
+.WeatherForecast {
+  color: white;
+  position: relative;
+  left: 15px;
+  font-family: "Work Sans";
+  line-height: 40px;
+}
+
+@media (max-width: 800px) {
+  .WeatherForecast {
+    color: black;
+    font-size: 19px;
+    position: relative;
+    left: -15px;
+  }
+  .ReactAnimatedWeather {
+    color: black;
+  }
+}
